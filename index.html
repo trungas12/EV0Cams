@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <title>sup3rvic0 Repo</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background:#0b1020;color:#f8fafc;font:16px system-ui,-apple-system,sans-serif}.card{width:min(92vw,520px);padding:32px;border:1px solid #26324d;border-radius:24px;background:#111827;box-shadow:0 24px 80px #0008}h1{margin:0 0 8px;font-size:2rem}.muted{color:#9ca3af}.buttons{display:grid;gap:12px;margin:28px 0}.button,button{display:block;width:100%;padding:14px 18px;border:0;border-radius:12px;background:#3b82f6;color:white;font:600 16px inherit;text-align:center;text-decoration:none;cursor:pointer}.secondary{background:#26324d}.source{padding:12px;border-radius:10px;background:#080c16;color:#93c5fd;font:13px ui-monospace,monospace;overflow-wrap:anywhere}small{color:#6b7280}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>sup3rvic0 Repo</h1>
+    <p class="muted">Nguồn APT dành cho iPhone jailbreak rootless.</p>
+    <div class="buttons">
+      <a class="button" id="sileo">Thêm vào Sileo</a>
+      <a class="button secondary" id="zebra">Thêm vào Zebra</a>
+      <button class="secondary" id="copy">Sao chép địa chỉ nguồn</button>
+    </div>
+    <div class="source" id="source"></div>
+    <p><strong>EvoCam</strong><br><span class="muted">Virtual camera — WiFi &amp; USB streaming</span></p>
+    <small>Nếu nút không mở được, hãy sao chép địa chỉ trên rồi thêm thủ công trong trình quản lý gói.</small>
+  </main>
+  <script>
+    const repo = new URL('./', location.href).href;
+    source.textContent = repo;
+    sileo.href = 'sileo://source/' + repo;
+    zebra.href = 'zbra://sources/add/' + repo;
+    copy.onclick = async () => { await navigator.clipboard.writeText(repo); copy.textContent = 'Đã sao chép!'; };
+  </script>
+</body>
+</html>
