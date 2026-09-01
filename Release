@@ -6,13 +6,13 @@ Codename: ios
 Architectures: iphoneos-arm64
 Components: main
 Description: EvoCam repository by sup3rvic0
-Date: Tue, 01 Sep 2026 11:41:21 +0000
+Date: Sat, 22 Aug 2026 10:33:05 +0000
 MD5Sum:
- 48186e7e9a9f81758447b259c4c07e76              508 Packages
- 3f7458e5ab13bb2431707f4faf3897ac              375 Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e                0 Packages
+ d41d8cd98f00b204e9800998ecf8427e                0 Packages.gz
 SHA1:
- af5060416c2df3cb59e6c605595e07028abffc98              508 Packages
- 392f3eb7fbf99889e748b491b966d58e539d584e              375 Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Packages
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Packages.gz
 SHA256:
- f367c2d11de1a7c3d382db8aaff64f8ef5f0ad94d1176c29d2dc8d59fb24380b              508 Packages
- 1733f1a59517922e3a928b80dd117ba630e6d9514b951f441470bafd07caec1b              375 Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Packages
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Packages.gz
